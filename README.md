@@ -4,6 +4,7 @@ This repository contains signal set configurations for the Hyundai IONIQ 5, orga
 
 ## Related models
 
+- [Hyundai Kona Electric](https://github.com/OBDb/Hyundai-Kona-Electric): Shares the same ODO parameters.
 - [Kia EV9](https://github.com/OBDb/Kia-EV9): Shares the same ODO parameters.
 
 ## Generations
