@@ -2,7 +2,11 @@
 
 This repository contains signal set configurations for the Hyundai IONIQ 5, organized by model year and version. The files are structured to allow for easy differentiation between trim levels and regional variants, ensuring accurate signal mapping for each version of the Hyundai IONIQ 5.
 
-## About Hyundai IONIQ 5 Generations
+## Related models
+
+- [Kia EV9](https://github.com/OBDb/Kia-EV9): Shares the same ODO parameters.
+
+## Generations
 
 The IONIQ 5 represents Hyundai's first dedicated electric vehicle built on the E-GMP (Electric Global Modular Platform) architecture, launched globally in 2021:
 
