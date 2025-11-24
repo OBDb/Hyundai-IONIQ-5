@@ -5,3 +5,13 @@ test_cases:
   response: |-
     778100B62BC03FDEE20
     778216300060000AAAA
+- expected_values:
+    IONIQ5_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    778216300660000AAAA
+- expected_values:
+    IONIQ5_LOW_BEAMS: 4
+  response: |-
+    778100B62BC03FDEE20
+    778216300660400AAAA
