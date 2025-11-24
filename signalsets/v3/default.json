@@ -450,7 +450,7 @@
     {"id": "IONIQ5_DISCHARGE_MODE_DC_MAXIMUM_CURRENT_LIMIT", "path": "Battery", "fmt": {"bix": 128, "len": 8,  "max": 255,               "unit": "amps"  }, "name": "Discharge mode DC maximum current limit"},
     {"id": "IONIQ5_DISCHARGE_MODE_AC_MAXIMUM_CURRENT_LIMIT", "path": "Battery", "fmt": {"bix": 136, "len": 8,  "max": 255,               "unit": "amps"  }, "name": "Discharge mode A/C maximum current limit"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E002"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E002"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_OBC_AC_VOLTAGE_A_RMS",                         "path": "Battery.Charging", "fmt": {"bix": 32,  "len": 16, "max": 6553.5,                 "div": 10,                            "unit": "volts"   }, "name": "On-board charger, AC voltage a"},
     {"id": "IONIQ5_OBC_AC_VOLTAGE_B_RMS",                         "path": "Battery.Charging", "fmt": {"bix": 48,  "len": 16, "max": 6553.5,                 "div": 10,                            "unit": "volts"   }, "name": "On-board charger, AC voltage b"},
