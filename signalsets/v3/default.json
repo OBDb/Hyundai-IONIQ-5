@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "730", "rax": "738", "dbg": true, "cmd": {"22": "F010"}, "freq": 0.25,
+{ "hdr": "730", "rax": "738", "cmd": {"22": "F010"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_WHEEL_FR_VSS_HD",           "path": "Movement",    "fmt": {"bix": 32,  "len": 16, "blsb": true, "max": 2047,                                 "div": 32,                                                   "unit": "kilometersPerHour"      },                  "name": "Front right wheel speed, high resolution"},
     {"id": "IONIQ5_WHEEL_FL_VSS_HD",           "path": "Movement",    "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 2047,                                 "div": 32,                                                   "unit": "kilometersPerHour"      },                  "name": "Front left wheel speed, high resolution"},
@@ -23,7 +23,7 @@
     {"id": "IONIQ5_OBC_DCHRG_AC_CURRENT", "path": "Battery.Charging", "fmt": {"bix": 216, "len": 8,  "max": 255,                                                   "unit": "amps"  }, "name": "On-board charger, discharging AC current"},
     {"id": "IONIQ5_ESTIMATED_CHRG_POWER", "path": "Battery.Charging", "fmt": {"bix": 224, "len": 16, "max": 655300, "min": -50, "mul": 10,             "add": -50, "unit": "watts" }, "name": "Estimated charging power"}
   ]},
-{ "hdr": "744", "rax": "74C", "cmd": {"22": "E002"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "744", "rax": "74C", "cmd": {"22": "E002"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_EVSE_MAXIMUM_VOLTAGE_VALUE",              "path": "Battery.Charging", "fmt": {"bix": 72,  "len": 16, "max": 6553.5,                        "div": 10,               "unit": "volts"         }, "name": "Electric vehicle supply equipment, voltage, max"},
     {"id": "IONIQ5_EVSE_MAXIMUM_CURRENT_VALUE",              "path": "Battery.Charging", "fmt": {"bix": 88,  "len": 16, "max": 6553.5,                        "div": 10,               "unit": "amps"          }, "name": "Electric vehicle supply equipment, current, max"},
@@ -58,7 +58,7 @@
     {"id": "IONIQ5_AC_CHARGING_TIME_AFTER_PLUG_IN", "path": "Battery", "fmt": {"bix": 336, "len": 16, "max": 65535,                            "unit": "minutes" }, "name": "A/C charging time, after plug-in"},
     {"id": "IONIQ5_DC_CHARGING_TIME_AFTER_PLUG_IN", "path": "Battery", "fmt": {"bix": 352, "len": 16, "max": 65535,                            "unit": "minutes" }, "name": "DC charging time, after plug-in"}
   ]},
-{ "hdr": "744", "rax": "74C", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "744", "rax": "74C", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_BATTERY_MAIN_RELAY_STATUS", "path": "Battery.Charging", "fmt": {"bix": 37, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Battery main relay status"},
     {"id": "IONIQ5_CHARGING_SOCKET_CONNECTED", "path": "Battery.Charging", "fmt": {"bix": 38, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "Charging socket connected"},
@@ -72,7 +72,7 @@
   "signals": [
     {"id": "IONIQ5_LOW_BEAMS", "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Low beams"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC06"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC06"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_BRAKE_LIGHT", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake light"}
   ]},
@@ -97,12 +97,12 @@
     {"id": "IONIQ5_HVAC_IAT_DRIVER_LEGS_VENT",                   "path": "Climate",  "fmt": {"bix": 224, "len": 8, "max": 87.5, "min": -40, "mul": 0.5,           "add": -40, "unit": "celsius"           }, "name": "Interior temperature, driver legs vent"},
     {"id": "IONIQ5_VSS",                                         "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255,                                                "unit": "kilometersPerHour" }, "name": "Vehicle speed",                          "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7B3", "rax": "7BB", "cmd": {"22": "0101"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7B3", "rax": "7BB", "cmd": {"22": "0101"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_HVAC_IAT_PASSENGER_VENT",      "path": "Climate", "fmt": {"bix": 64, "len": 8, "max": 87.5, "min": -40, "mul": 0.5, "add": -40, "unit": "celsius" }, "name": "Interior temperature, passenger vent"},
     {"id": "IONIQ5_HVAC_IAT_PASSENGER_LEGS_VENT", "path": "Climate", "fmt": {"bix": 72, "len": 8, "max": 87.5, "min": -40, "mul": 0.5, "add": -40, "unit": "celsius" }, "name": "Interior temperature, passenger legs vent"}
   ]},
-{ "hdr": "7B3", "rax": "7BB", "cmd": {"22": "0102"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7B3", "rax": "7BB", "cmd": {"22": "0102"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_HVAC_COOLANT_T",  "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Coolant temperature"},
     {"id": "IONIQ5_HVAC_INVERTER_T", "path": "Engine", "fmt": {"bix": 96, "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Inverter temperature"}
@@ -112,14 +112,14 @@
     {"id": "IONIQ5_ODO_KM", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, metric",   "suggestedMetric": "odometer"},
     {"id": "IONIQ5_ODO_MI", "path": "Trips", "fmt": {"bix": 72, "len": 24, "max": 16777215, "unit": "miles"      }, "name": "Odometer, imperial", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "dbg": true, "cmd": {"22": "0104"}, "freq": 0.25,
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "IONIQ5_WHEEL_FL_VSS", "path": "Movement", "fmt": {"bix": 80,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "IONIQ5_WHEEL_FR_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "IONIQ5_WHEEL_RL_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "IONIQ5_WHEEL_RR_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D4", "rax": "7DC", "dbg": true, "cmd": {"22": "0101"}, "freq": 0.25,
+{ "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_WHEEL_ANGLE_ABS",    "path": "Tires",  "fmt": {"bix": 56, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Wheel turn angle, absolute"},
     {"id": "IONIQ5_MDPS_MOTOR_CURRENT", "path": "Engine", "fmt": {"bix": 88, "len": 8,  "max": 127,    "min": -128,               "sign": true, "unit": "amps"    }, "name": "Motor-driven power steering current"}
@@ -135,13 +135,13 @@
     {"id": "IONIQ5_ACCEL_PEDAL_DEPTH", "path": "Control",      "fmt": {"bix": 96,  "len": 8,  "max": 127.5,                  "div": 2,                 "unit": "percent"           }, "name": "Accelerator pedal depth"},
     {"id": "IONIQ5_VSS_VMCU",          "path": "Movement",     "fmt": {"bix": 104, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed",           "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_ACCELERATOR_PEDAL_POSITION", "path": "Control",  "fmt": {"bix": 64, "len": 16, "blsb": true, "max": 100,                                    "div": 512,                 "unit": "percent"           }, "name": "Accelerator pedal position"},
     {"id": "IONIQ5_VSS_HD",                     "path": "Movement", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 511.984375, "min": -512, "mul": 156.25, "div": 10000, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution", "suggestedMetric": "speed"},
     {"id": "IONIQ5_12V_V",                      "path": "Battery",  "fmt": {"bix": 96, "len": 16, "blsb": true, "max": 32.0007405,              "mul": 4.883,  "div": 10000,               "unit": "volts"             }, "name": "Auxiliary battery voltage",      "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "E005"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "E005"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_DISCONNECTOR_STROKE_POSITION",        "path": "Engine", "fmt": {"bix": 32,  "len": 16, "blsb": true, "max": 511,                                 "div": 128,                                                      "unit": "millimeters" },                                             "name": "Disconnector stroke position"},
     {"id": "IONIQ5_DISCONNECTOR_MEET_POINT",             "path": "Engine", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 511,                                 "div": 128,                                                      "unit": "millimeters" },                                             "name": "Disconnector meet point"},
@@ -155,7 +155,7 @@
   "signals": [
     {"id": "IONIQ5_MOTOR_RPM_2102", "path": "Engine", "fmt": {"bix": 32, "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Motor rpm, alternate"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "E001"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "E001"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_IGN_VOLTAGE",             "path": "Engine", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65.535,                 "mul": 10,   "div": 10000,               "unit": "volts"        }, "name": "Ignition voltage"},
     {"id": "IONIQ5_MOTOR_RPM",               "path": "Engine", "fmt": {"bix": 136, "len": 16, "blsb": true, "max": 32767,  "min": -32768,                             "sign": true, "unit": "rpm"          }, "name": "Motor RPM"},
@@ -166,7 +166,7 @@
     {"id": "IONIQ5_INVERTER_T",              "path": "Engine", "fmt": {"bix": 216, "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "mul": 0.01,               "sign": true, "unit": "celsius"      }, "name": "Inverter temperature"},
     {"id": "IONIQ5_HEAT_SINK_T",             "path": "Engine", "fmt": {"bix": 448, "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "mul": 0.01,               "sign": true, "unit": "celsius"      }, "name": "Heat sink temperature"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "E009"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "E009"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_EWP_CURRENT_DC",               "path": "Battery", "fmt": {"bix": 56,  "len": 8, "max": 25.5,            "div": 10, "unit": "amps"  }, "name": "Electric water pump, current DC"},
     {"id": "IONIQ5_EWP_VOLTAGE_DC",               "path": "Battery", "fmt": {"bix": 64,  "len": 8, "max": 25.5,            "div": 10, "unit": "volts" }, "name": "Electric water pump, voltage DC"},
@@ -428,7 +428,7 @@
     {"id": "IONIQ5_HVBAT_CMU191_VOLT", "path": "Battery.Modules.191", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 191 voltage"},
     {"id": "IONIQ5_HVBAT_CMU192_VOLT", "path": "Battery.Modules.192", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 192 voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "0111"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "0111"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_NORMAL_CHARGING_COUNT",      "path": "Battery", "fmt": {"bix": 32,  "len": 32, "max": 4294967295,                           "unit": "scalar"        }, "name": "Normal charging, count"},
     {"id": "IONIQ5_QUICK_CHARGING_COUNT",       "path": "Battery", "fmt": {"bix": 64,  "len": 32, "max": 4294967295,                           "unit": "scalar"        }, "name": "Quick charging, count"},
@@ -437,7 +437,7 @@
     {"id": "IONIQ5_BATTERY_PACK_B17",           "path": "Battery", "fmt": {"bix": 208, "len": 8,  "max": 80,         "min": -40, "sign": true, "unit": "celsius"       }, "name": "Battery pack B17"},
     {"id": "IONIQ5_BATTERY_PACK_B18",           "path": "Battery", "fmt": {"bix": 216, "len": 8,  "max": 80,         "min": -40, "sign": true, "unit": "celsius"       }, "name": "Battery pack B18"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "0114"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "0114"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_AC_COMPRESSOR_OPERATION_RPM", "path": "Climate", "fmt": {"bix": 208, "len": 16, "max": 1310700, "mul": 20, "unit": "rpm" }, "name": "A/C compressor operation RPM"}
   ]},
@@ -467,7 +467,7 @@
     {"id": "IONIQ5_OBC_AC_INPUT_CURRENT_SENSOR_A_SIGNAL_VOLTAGE", "path": "Battery.Charging", "fmt": {"bix": 296, "len": 16, "max": 655.35,                 "div": 100,                           "unit": "volts"   }, "name": "On-board charger, AC input current sensor a signal voltage"},
     {"id": "IONIQ5_OBC_AC_INPUT_CURRENT_SENSOR_B_SIGNAL_VOLTAGE", "path": "Battery.Charging", "fmt": {"bix": 312, "len": 16, "max": 655.35,                 "div": 100,                           "unit": "volts"   }, "name": "On-board charger, AC input current sensor b signal voltage"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E003"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E003"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "IONIQ5_OBC_CHARGE_MODE_DC_TARGET_VOLTAGE", "path": "Battery.Charging", "fmt": {"bix": 64, "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "On-board charger, charge mode DC target voltage"},
     {"id": "IONIQ5_OBC_CHARGE_MODE_DC_TARGET_CURRENT", "path": "Battery.Charging", "fmt": {"bix": 80, "len": 16, "max": 6553.5, "div": 10, "unit": "amps"  }, "name": "On-board charger, charge mode DC target current"}
@@ -483,7 +483,7 @@
     {"id": "IONIQ5_AUX_BATTERY_VOLTAGE_7E5",     "path": "Battery", "fmt": {"bix": 168, "len": 16, "max": 71.535,  "min": 6,                "div": 1000, "add": 6,    "unit": "volts"   }, "name": "Auxiliary battery voltage",                   "suggestedMetric": "starterBatteryVoltage"},
     {"id": "IONIQ5_AUX_BATTERY_T",               "path": "Battery", "fmt": {"bix": 184, "len": 16, "max": 32727.5, "min": -40,  "mul": 0.5,              "add": -40,  "unit": "celsius" }, "name": "Auxiliary battery temperature"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "E101"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E101"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "IONIQ5_2025_LDC_T",                       "path": "Battery", "fmt": {"bix": 72,  "len": 8,  "max": 155,     "min": -100,                          "add": -100, "unit": "celsius" }, "name": "Low-voltage dc-dc converter, temperature"},
     {"id": "IONIQ5_2025_LDC_OUTPUT_VOLTAGE",          "path": "Battery", "fmt": {"bix": 80,  "len": 16, "max": 65.535,                           "div": 1000,              "unit": "volts"   }, "name": "Low-voltage dc-dc converter, output voltage"},
