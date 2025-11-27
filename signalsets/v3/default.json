@@ -112,7 +112,7 @@
     {"id": "IONIQ5_ODO_KM", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, metric",   "suggestedMetric": "odometer"},
     {"id": "IONIQ5_ODO_MI", "path": "Trips", "fmt": {"bix": 72, "len": 24, "max": 16777215, "unit": "miles"      }, "name": "Odometer, imperial", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2025 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "IONIQ5_WHEEL_FL_VSS", "path": "Movement", "fmt": {"bix": 80,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "IONIQ5_WHEEL_FR_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
