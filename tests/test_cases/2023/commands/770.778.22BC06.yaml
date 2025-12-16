@@ -11,6 +11,11 @@ test_cases:
     778100B62BC06B40000
     778216D00000080AAAA
 - expected_values:
+    IONIQ5_BRAKE_LIGHT: 41
+  response: |-
+    778100B62BC06B40000
+    778216D29000080AAAA
+- expected_values:
     IONIQ5_BRAKE_LIGHT: 44
   response: |-
     778100B62BC06B40000
