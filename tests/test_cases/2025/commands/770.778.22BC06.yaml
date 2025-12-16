@@ -5,3 +5,8 @@ test_cases:
   response: |-
     778100862BC06F90000
     778210000AAAAAAAAAA
+- expected_values:
+    IONIQ5_BRAKE_LIGHT: 4
+  response: |-
+    778100862BC06F90000
+    778210004AAAAAAAAAA
