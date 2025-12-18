@@ -1,7 +1,0 @@
-command_id: 770.778.22BC06
-test_cases:
-- expected_values:
-    IONIQ5_BRAKE_LIGHT: 0
-  response: |-
-    778100B62BC06B40000
-    778216D00000080AAAA
