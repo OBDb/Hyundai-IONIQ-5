@@ -65,6 +65,15 @@ test_cases:
     7CE2300000000AAAAAA
 - expected_values:
     IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 5872
+  response: |-
+    22B002
+    7CE101862B002D60000
+    7CE2100FF9D00000000
+    7CE2216F000009F0310
+    7CE2300000000AAAAAA
+- expected_values:
+    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 4558
   response: |-
     22B002
