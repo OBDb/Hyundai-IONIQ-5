@@ -1,4 +1,4 @@
-command_id: 7E5.7ED.22E011|f=-2025
+command_id: 7E5.7ED.22E011|f=-2024
 test_cases:
 - expected_values:
     IONIQ5_AUX_BATTERY_CURRENT: -8.79
