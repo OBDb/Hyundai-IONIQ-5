@@ -68,7 +68,7 @@
     {"id": "IONIQ5_DC_INLET_T_2",              "path": "Battery.Charging", "fmt": {"bix": 72, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "DC inlet temperature 2"},
     {"id": "IONIQ5_AC_INLET_T_1",              "path": "Battery.Charging", "fmt": {"bix": 80, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "AC inlet temperature 1"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2026 },
   "signals": [
     {"id": "IONIQ5_LOW_BEAMS", "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Low beams"}
   ]},
