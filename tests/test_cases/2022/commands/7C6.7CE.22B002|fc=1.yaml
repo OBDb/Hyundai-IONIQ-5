@@ -2,18 +2,18 @@ command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
     IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 109827
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FF9600000001
+    7CE22AD03AAAAAAAAAA
+- expected_values:
+    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 60161
   response: |-
     7CE100F62B002D00000
     7CE2100FF9A00000000
     7CE22EB01AAAAAAAAAA
-- expected_values:
-    IONIQ5_ODO_KM: 0
-    IONIQ5_ODO_MI: 107788
-  response: |-
-    7CE100F62B002D00000
-    7CE2100FF9A00000001
-    7CE22A50CAAAAAAAAAA
 - expected_values:
     IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 38175
