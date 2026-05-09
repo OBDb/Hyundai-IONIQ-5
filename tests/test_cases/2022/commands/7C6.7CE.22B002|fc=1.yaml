@@ -2,6 +2,11 @@ command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
     IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 110704
+  response: "7CE 10 0F 62 B0 02 D0 00 00 \n7CE 21 00 FF AE 00 00 00 01 \n7CE 22 B0
+    70 AA AA AA AA AA "
+- expected_values:
+    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 110053
   response: |-
     7CE100F62B002D00000
