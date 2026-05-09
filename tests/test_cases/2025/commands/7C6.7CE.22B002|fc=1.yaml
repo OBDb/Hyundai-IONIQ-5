@@ -32,14 +32,14 @@ test_cases:
     22 16 A5 00 00 A5 02 F8 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
     IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 5872
+  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF AC 00 00 00 00 \n7CE
+    22 16 F0 00 00 AD 00 1C \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
+    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 5076
   response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF B1 00 00 00 00 \n7CE
     22 13 D4 00 00 B2 00 00 \n7CE 23 00 00 00 00 AA AA AA "
-- expected_values:
-    IONIQ5_ODO_KM: 0
-    IONIQ5_ODO_MI: 5840
-  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF B4 00 00 00 00 \n7CE
-    22 16 D0 00 00 B5 01 28 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
     IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 5195
