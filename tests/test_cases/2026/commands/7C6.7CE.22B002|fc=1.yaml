@@ -7,6 +7,16 @@ test_cases:
     9C 00 00 00 00 00 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
     IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 3018
+  response: "7CE 10 18 62 B0 02 D0 00 00 \n7CE 21 00 FF B3 00 00 00 00 \n7CE 22 0B
+    CA 00 00 00 00 00 \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
+    IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 3020
+  response: "7CE 10 18 62 B0 02 D0 00 00 \n7CE 21 00 FF B3 00 00 00 00 \n7CE 22 0B
+    CC 00 00 00 00 00 \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
+    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 0
   response: |-
     7CE101862B002400000
