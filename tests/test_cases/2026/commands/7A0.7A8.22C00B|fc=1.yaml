@@ -1,6 +1,18 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
+    IONIQ5_TP_FL: 33.8
+    IONIQ5_TP_FR: 34.8
+    IONIQ5_TP_RL: 35.6
+    IONIQ5_TP_RR: 35.4
+    IONIQ5_TT_FL: 26
+    IONIQ5_TT_FR: 27
+    IONIQ5_TT_RL: 26
+    IONIQ5_TT_RR: 26
+  response: "7A8 10 24 62 C0 0B 00 00 00 \n7A8 21 00 A9 4C 01 00 00 AE \n7A8 22 4D
+    01 00 00 B2 4C 01 \n7A8 23 00 00 B1 4C 01 00 00 \n7A8 24 4C 93 B8 93 B8 93 B8
+    \n7A8 25 93 B8 AA AA AA AA AA "
+- expected_values:
     IONIQ5_TP_FL: 0
     IONIQ5_TP_FR: 0
     IONIQ5_TP_RL: 0
