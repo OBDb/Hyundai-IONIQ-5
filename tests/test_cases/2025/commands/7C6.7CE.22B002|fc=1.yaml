@@ -2,6 +2,11 @@ command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
     IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 0
+  response: "22B002\n7CE 10 14 62 B0 02 40 00 00 \n7CE 21 00 00 B3 00 00 00 00 \n7CE
+    22 00 00 00 00 00 00 00 "
+- expected_values:
+    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 6085
   response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 96 00 00 00 00 \n7CE
     22 17 C5 00 00 98 00 00 \n7CE 23 00 00 00 00 AA AA AA "
@@ -70,15 +75,6 @@ test_cases:
     7CE2300000000AAAAAA
 - expected_values:
     IONIQ5_ODO_KM: 0
-    IONIQ5_ODO_MI: 12608
-  response: |-
-    22B002
-    7CE101862B002D00000
-    7CE2100FFAD00000000
-    7CE2231400000000000
-    7CE2300000000AAAAAA
-- expected_values:
-    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 4692
   response: |-
     22B002
@@ -140,6 +136,16 @@ test_cases:
     7CE2100FFB800000000
     7CE2213080000B8008C
     7CE2300000000AAAAAA
+- expected_values:
+    IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 0
+  response: "7CE 10 14 62 B0 02 40 00 00 \n7CE 21 00 00 9C 00 00 00 00 \n7CE 22 00
+    00 00 00 00 00 00 "
+- expected_values:
+    IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 0
+  response: "7CE 10 14 62 B0 02 40 00 00 \n7CE 21 00 00 B3 00 00 00 00 \n7CE 22 00
+    00 00 00 00 00 00 "
 - expected_values:
     IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 12598
