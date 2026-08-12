@@ -15,6 +15,14 @@ test_cases:
     7CE224EB3AAAAAAAAAA
 - expected_values:
     IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 20976
+  response: |-
+    22B002
+    7CE100F62B002D00000
+    7CE2100FFA100000000
+    7CE2251F0AAAAAAAAAA
+- expected_values:
+    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 20143
   response: |-
     22B002
@@ -23,12 +31,12 @@ test_cases:
     7CE224EAFAAAAAAAAAA
 - expected_values:
     IONIQ5_ODO_KM: 0
-    IONIQ5_ODO_MI: 20144
+    IONIQ5_ODO_MI: 20974
   response: |-
     22B002
     7CE100F62B002D00000
     7CE2100FFA200000000
-    7CE224EB0AAAAAAAAAA
+    7CE2251EEAAAAAAAAAA
 - expected_values:
     IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 15842
