@@ -1,4 +1,9 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E2", "type": "vehicleControl" },
+    { "hdr": "7E3", "type": "motor" },
+    { "hdr": "7E4", "type": "battery" }
+  ],
+  "commands": [
 { "hdr": "730", "rax": "738", "cmd": {"22": "F010"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
     {"id": "IONIQ5_WHEEL_FR_VSS_HD",           "path": "Movement",    "fmt": {"bix": 32,  "len": 16, "blsb": true, "max": 2047,                                 "div": 32,                                                   "unit": "kilometersPerHour"      },                  "name": "Front right wheel speed, high resolution"},
