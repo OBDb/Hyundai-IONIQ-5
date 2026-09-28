@@ -142,9 +142,9 @@
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
-    {"id": "IONIQ5_ACCELERATOR_PEDAL_POSITION", "path": "Control",  "fmt": {"bix": 64, "len": 16, "blsb": true, "max": 100,                                    "div": 512,                 "unit": "percent"           }, "name": "Accelerator pedal position"},
-    {"id": "IONIQ5_VSS_HD",                     "path": "Movement", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 511.984375, "min": -512, "mul": 156.25, "div": 10000, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution", "suggestedMetric": "speed"},
-    {"id": "IONIQ5_12V_V",                      "path": "Battery",  "fmt": {"bix": 96, "len": 16, "blsb": true, "max": 32.0007405,              "mul": 4.883,  "div": 10000,               "unit": "volts"             }, "name": "Auxiliary battery voltage",      "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "IONIQ5_ACCELERATOR_PEDAL_POSITION", "path": "Control",  "fmt": {"bix": 64, "len": 16, "blsb": true, "max": 100,                             "div": 512,                 "unit": "percent"           }, "name": "Accelerator pedal position"},
+    {"id": "IONIQ5_VSS_HD",                     "path": "Movement", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 511, "min": -512, "mul": 156.25, "div": 10000, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution", "suggestedMetric": "speed"},
+    {"id": "IONIQ5_12V_V",                      "path": "Battery",  "fmt": {"bix": 96, "len": 16, "blsb": true, "max": 32,               "mul": 4.883,  "div": 10000,               "unit": "volts"             }, "name": "Auxiliary battery voltage",      "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "E005"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
