@@ -4,4 +4,9 @@ test_cases:
     IONIQ5_LIGHTS_CODE: 0
   response: |-
     778100B62BC100F0C0C
+    778211000100000AAAA
+- expected_values:
+    IONIQ5_LIGHTS_CODE: 0
+  response: |-
+    778100B62BC100F0C0C
     778211000200000AAAA
