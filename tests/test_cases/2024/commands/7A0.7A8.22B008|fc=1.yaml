@@ -1,0 +1,12 @@
+command_id: 7A0.7A8.22B008|fc=1
+test_cases:
+- expected_values:
+    IONIQ5_BRAKE_SW: 0
+  response: |-
+    7A8100B62B008040008
+    7A8210000000000AAAA
+- expected_values:
+    IONIQ5_BRAKE_SW: 1
+  response: |-
+    7A8100B62B008040008
+    7A8210000001000AAAA
