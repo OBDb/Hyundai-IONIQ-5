@@ -1,4 +1,6 @@
 { "ecu": [
+    { "hdr": "744", "type": "charger" },
+    { "hdr": "7A0", "type": "bodyControl" },
     { "hdr": "7E2", "type": "vehicleControl" },
     { "hdr": "7E3", "type": "motor" },
     { "hdr": "7E4", "type": "battery" }
