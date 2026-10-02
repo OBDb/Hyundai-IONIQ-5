@@ -1,4 +1,4 @@
-command_id: 7E3.7EB.22E001
+command_id: 7E3.7EB.22E001|f=-2024
 test_cases:
 - expected_values:
     IONIQ5_HEAT_SINK_T: 22.97
