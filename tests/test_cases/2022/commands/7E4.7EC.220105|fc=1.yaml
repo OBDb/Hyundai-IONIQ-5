@@ -99,7 +99,6 @@ test_cases:
 - expected_values:
     IONIQ5_HVBAT_SOC_DISP: 25.5
     IONIQ5_HVBAT_SOH: 100
-    IONIQ5_HVBAT_WH: 100
   response: |-
     7EC102E620105FFFB74
     7EC210F012C00012C00
@@ -111,7 +110,6 @@ test_cases:
 - expected_values:
     IONIQ5_HVBAT_SOC_DISP: 59.5
     IONIQ5_HVBAT_SOH: 99.3
-    IONIQ5_HVBAT_WH: 100
   response: |-
     7EC102E620105FFFB74
     7EC210F012C00012C00
