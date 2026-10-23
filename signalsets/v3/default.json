@@ -1,10 +1,13 @@
 { "ecu": [
+    { "hdr": "730", "type": "driverAssistance" },
     { "hdr": "744", "type": "charger" },
     { "hdr": "7A0", "type": "bodyControl" },
     { "hdr": "7C6", "type": "cluster" },
+    { "hdr": "7D4", "type": "steering" },
     { "hdr": "7E2", "type": "vehicleControl" },
     { "hdr": "7E3", "type": "motor" },
-    { "hdr": "7E4", "type": "battery" }
+    { "hdr": "7E4", "type": "battery" },
+    { "hdr": "7E5", "type": "charger" }
   ],
   "commands": [
 { "hdr": "730", "rax": "738", "cmd": {"22": "F010"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2027 },
