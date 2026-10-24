@@ -1,4 +1,4 @@
-command_id: 7E5.7ED.22E002
+command_id: 7E5.7ED.22E002|f=-2024
 test_cases:
 - expected_values:
     IONIQ5_OBC_AC_CURRENT_A_RMS: 0
