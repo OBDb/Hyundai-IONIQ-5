@@ -49,25 +49,25 @@
   ]},
 { "hdr": "744", "rax": "74C", "fcm1": true, "cmd": {"22": "E003"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
-    {"id": "IONIQ5_HVBAT_CP_VOLTAGE",               "path": "Battery", "fmt": {"bix": 48,  "len": 8,  "max": 25.5,              "div": 10,    "unit": "volts"   }, "name": "Control pilot voltage"},
-    {"id": "IONIQ5_HVBAT_CP_DUTY_CYCLE",            "path": "Battery", "fmt": {"bix": 56,  "len": 16, "max": 100,               "div": 10,    "unit": "percent" }, "name": "Control pilot duty cycle"},
-    {"id": "IONIQ5_HVBAT_PD_VOLTAGE",               "path": "Battery", "fmt": {"bix": 88,  "len": 16, "max": 65.535, "mul": 10, "div": 10000, "unit": "volts"   }, "name": "Proximity detection voltage"},
-    {"id": "IONIQ5_HVBAT_HV_BATTERY_VOLTAGE",       "path": "Battery", "fmt": {"bix": 104, "len": 16, "max": 6553.5,            "div": 10,    "unit": "volts"   }, "name": "High voltage battery, voltage",                     "suggestedMetric": "tractionBatteryVoltage"},
-    {"id": "IONIQ5_HVBAT_SOC_VCMS",                 "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 100,               "div": 2,     "unit": "percent" }, "name": "High voltage battery, state of charge",             "suggestedMetric": "stateOfCharge"},
-    {"id": "IONIQ5_HVBAT_TARGET_VOLT",              "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 6553.5,            "div": 10,    "unit": "volts"   }, "name": "Electric vehicle supply equipment, target voltage"},
-    {"id": "IONIQ5_HVBAT_TARGET_CURR",              "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 6553.5,            "div": 10,    "unit": "amps"    }, "name": "Electric vehicle supply equipment, target current"},
-    {"id": "IONIQ5_HVBAT_EV_MAX_VOLTAGE",           "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 6553.5,            "div": 10,    "unit": "volts"   }, "name": "High voltage battery, max voltage"},
-    {"id": "IONIQ5_HVBAT_EV_MAX_CURRENT",           "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 6553.5,            "div": 10,    "unit": "amps"    }, "name": "High voltage battery, max current"},
-    {"id": "IONIQ5_HVBAT_BMS_TARGET_VOLTAGE",       "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 6553.5,            "div": 10,    "unit": "volts"   }, "name": "High voltage battery, target voltage"},
-    {"id": "IONIQ5_HVBAT_BMS_TARGET_CURRENT",       "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 6553.5,            "div": 10,    "unit": "amps"    }, "name": "High voltage battery, target current"},
-    {"id": "IONIQ5_HVBAT_AC_CHARGING_COUNTER",      "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 65535,                           "unit": "scalar"  }, "name": "A/C charging counter"},
-    {"id": "IONIQ5_HVBAT_CHRG_CNT",                 "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 65535,                           "unit": "scalar"  }, "name": "DC charging counter"},
-    {"id": "IONIQ5_VCMS__AC_CHARGING_TIME",         "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 65535,                           "unit": "hours"   }, "name": "A/C charging time"},
-    {"id": "IONIQ5_DC_CHRG_TIME",                   "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 65535,                           "unit": "hours"   }, "name": "Cumulative DC charging time"},
-    {"id": "IONIQ5_AC_CHARGER_CURRENT",             "path": "Battery", "fmt": {"bix": 304, "len": 16, "max": 655.35,            "div": 100,   "unit": "amps"    }, "name": "A/C charger current"},
-    {"id": "IONIQ5_DC_CHARGER_CURRENT_CAPABILITY",  "path": "Battery", "fmt": {"bix": 320, "len": 16, "max": 655.35,            "div": 100,   "unit": "amps"    }, "name": "DC charger current capability"},
-    {"id": "IONIQ5_AC_CHARGING_TIME_AFTER_PLUG_IN", "path": "Battery", "fmt": {"bix": 336, "len": 16, "max": 65535,                           "unit": "minutes" }, "name": "A/C charging time, after plug-in"},
-    {"id": "IONIQ5_DC_CHARGING_TIME_AFTER_PLUG_IN", "path": "Battery", "fmt": {"bix": 352, "len": 16, "max": 65535,                           "unit": "minutes" }, "name": "DC charging time, after plug-in"}
+    {"id": "IONIQ5_HVBAT_CP_VOLTAGE",               "path": "Battery", "fmt": {"bix": 48,  "len": 8,  "max": 25.5,              "div": 10,                                     "unit": "volts"   }, "name": "Control pilot voltage"},
+    {"id": "IONIQ5_HVBAT_CP_DUTY_CYCLE",            "path": "Battery", "fmt": {"bix": 56,  "len": 16, "max": 100,               "div": 10,                                     "unit": "percent" }, "name": "Control pilot duty cycle"},
+    {"id": "IONIQ5_HVBAT_PD_VOLTAGE",               "path": "Battery", "fmt": {"bix": 88,  "len": 16, "max": 65.535, "mul": 10, "div": 10000,                                  "unit": "volts"   }, "name": "Proximity detection voltage"},
+    {"id": "IONIQ5_HVBAT_HV_BATTERY_VOLTAGE",       "path": "Battery", "fmt": {"bix": 104, "len": 16, "max": 6553.5,            "div": 10,    "nullmin": 0, "nullmax": 6553.5, "unit": "volts"   }, "name": "High voltage battery, voltage",                     "suggestedMetric": "tractionBatteryVoltage"},
+    {"id": "IONIQ5_HVBAT_SOC_VCMS",                 "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 100,               "div": 2,                                      "unit": "percent" }, "name": "High voltage battery, state of charge",             "suggestedMetric": "stateOfCharge"},
+    {"id": "IONIQ5_HVBAT_TARGET_VOLT",              "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 6553.5,            "div": 10,                                     "unit": "volts"   }, "name": "Electric vehicle supply equipment, target voltage"},
+    {"id": "IONIQ5_HVBAT_TARGET_CURR",              "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 6553.5,            "div": 10,                                     "unit": "amps"    }, "name": "Electric vehicle supply equipment, target current"},
+    {"id": "IONIQ5_HVBAT_EV_MAX_VOLTAGE",           "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 6553.5,            "div": 10,                                     "unit": "volts"   }, "name": "High voltage battery, max voltage"},
+    {"id": "IONIQ5_HVBAT_EV_MAX_CURRENT",           "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 6553.5,            "div": 10,                                     "unit": "amps"    }, "name": "High voltage battery, max current"},
+    {"id": "IONIQ5_HVBAT_BMS_TARGET_VOLTAGE",       "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 6553.5,            "div": 10,                                     "unit": "volts"   }, "name": "High voltage battery, target voltage"},
+    {"id": "IONIQ5_HVBAT_BMS_TARGET_CURRENT",       "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 6553.5,            "div": 10,                                     "unit": "amps"    }, "name": "High voltage battery, target current"},
+    {"id": "IONIQ5_HVBAT_AC_CHARGING_COUNTER",      "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 65535,                                                            "unit": "scalar"  }, "name": "A/C charging counter"},
+    {"id": "IONIQ5_HVBAT_CHRG_CNT",                 "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 65535,                                                            "unit": "scalar"  }, "name": "DC charging counter"},
+    {"id": "IONIQ5_VCMS__AC_CHARGING_TIME",         "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 65535,                                                            "unit": "hours"   }, "name": "A/C charging time"},
+    {"id": "IONIQ5_DC_CHRG_TIME",                   "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 65535,                                                            "unit": "hours"   }, "name": "Cumulative DC charging time"},
+    {"id": "IONIQ5_AC_CHARGER_CURRENT",             "path": "Battery", "fmt": {"bix": 304, "len": 16, "max": 655.35,            "div": 100,                                    "unit": "amps"    }, "name": "A/C charger current"},
+    {"id": "IONIQ5_DC_CHARGER_CURRENT_CAPABILITY",  "path": "Battery", "fmt": {"bix": 320, "len": 16, "max": 655.35,            "div": 100,                                    "unit": "amps"    }, "name": "DC charger current capability"},
+    {"id": "IONIQ5_AC_CHARGING_TIME_AFTER_PLUG_IN", "path": "Battery", "fmt": {"bix": 336, "len": 16, "max": 65535,                                                            "unit": "minutes" }, "name": "A/C charging time, after plug-in"},
+    {"id": "IONIQ5_DC_CHARGING_TIME_AFTER_PLUG_IN", "path": "Battery", "fmt": {"bix": 352, "len": 16, "max": 65535,                                                            "unit": "minutes" }, "name": "DC charging time, after plug-in"}
   ]},
 { "hdr": "744", "rax": "74C", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
@@ -477,7 +477,7 @@
     {"id": "IONIQ5_DISCHARGE_MODE_DC_MAXIMUM_CURRENT_LIMIT", "path": "Battery", "fmt": {"bix": 128, "len": 8,  "max": 255,               "unit": "amps"  }, "name": "Discharge mode DC maximum current limit"},
     {"id": "IONIQ5_DISCHARGE_MODE_AC_MAXIMUM_CURRENT_LIMIT", "path": "Battery", "fmt": {"bix": 136, "len": 8,  "max": 255,               "unit": "amps"  }, "name": "Discharge mode A/C maximum current limit"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E002"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E002"}, "freq": 1, "filter": { "to": 2024 }, "dbgfilter": { "to": 2021 },
   "signals": [
     {"id": "IONIQ5_OBC_AC_VOLTAGE_A_RMS",                         "path": "Battery.Charging", "fmt": {"bix": 32,  "len": 16, "max": 6553.5,                 "div": 10,                            "unit": "volts"   }, "name": "On-board charger, AC voltage a"},
     {"id": "IONIQ5_OBC_AC_VOLTAGE_B_RMS",                         "path": "Battery.Charging", "fmt": {"bix": 48,  "len": 16, "max": 6553.5,                 "div": 10,                            "unit": "volts"   }, "name": "On-board charger, AC voltage b"},
@@ -493,6 +493,14 @@
     {"id": "IONIQ5_OBC_T_B",                                      "path": "Battery.Charging", "fmt": {"bix": 224, "len": 8,  "max": 215,    "min": -40,                 "add": -40,               "unit": "celsius" }, "name": "On-board charger, temperature b"},
     {"id": "IONIQ5_OBC_AC_INPUT_CURRENT_SENSOR_A_SIGNAL_VOLTAGE", "path": "Battery.Charging", "fmt": {"bix": 296, "len": 16, "max": 655.35,                 "div": 100,                           "unit": "volts"   }, "name": "On-board charger, AC input current sensor a signal voltage"},
     {"id": "IONIQ5_OBC_AC_INPUT_CURRENT_SENSOR_B_SIGNAL_VOLTAGE", "path": "Battery.Charging", "fmt": {"bix": 312, "len": 16, "max": 655.35,                 "div": 100,                           "unit": "volts"   }, "name": "On-board charger, AC input current sensor b signal voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E002"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "IONIQ5_2025_OBC_RAW_BYTES_4_TO_6",   "path": "Battery.Charging", "fmt": {"bix": 32,  "len": 24, "max": 16777215, "unit": "scalar" }, "name": "On-board charger, raw bytes 4 to 6"},
+    {"id": "IONIQ5_2025_OBC_RAW_BYTES_17_TO_18", "path": "Battery.Charging", "fmt": {"bix": 136, "len": 16, "max": 65535,    "unit": "scalar" }, "name": "On-board charger, raw bytes 17 to 18"},
+    {"id": "IONIQ5_2025_OBC_RAW_BYTES_19_TO_20", "path": "Battery.Charging", "fmt": {"bix": 152, "len": 16, "max": 65535,    "unit": "scalar" }, "name": "On-board charger, raw bytes 19 to 20"},
+    {"id": "IONIQ5_2025_OBC_RAW_BYTE_26",        "path": "Battery.Charging", "fmt": {"bix": 208, "len": 8,  "max": 255,      "unit": "scalar" }, "name": "On-board charger, raw byte 26"},
+    {"id": "IONIQ5_2025_OBC_RAW_BYTES_27_TO_28", "path": "Battery.Charging", "fmt": {"bix": 216, "len": 16, "max": 65535,    "unit": "scalar" }, "name": "On-board charger, raw bytes 27 to 28"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "E003"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
   "signals": [
