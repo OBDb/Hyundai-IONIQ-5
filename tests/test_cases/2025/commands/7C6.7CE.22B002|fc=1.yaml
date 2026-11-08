@@ -7,9 +7,9 @@ test_cases:
     22 00 00 00 00 00 00 00 "
 - expected_values:
     IONIQ5_ODO_KM: 0
-    IONIQ5_ODO_MI: 6085
-  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 96 00 00 00 00 \n7CE
-    22 17 C5 00 00 98 00 00 \n7CE 23 00 00 00 00 AA AA AA "
+    IONIQ5_ODO_MI: 15449
+  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 93 00 00 00 00 \n7CE
+    22 3C 59 00 00 97 00 00 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
     IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 5081
