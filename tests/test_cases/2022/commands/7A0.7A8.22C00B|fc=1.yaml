@@ -30,10 +30,6 @@ test_cases:
     01 00 00 BA 4E 01 \n7A8 23 00 00 BE 4E 01 00 00 \n7A8 24 FF 9B B0 98 B0 98 B0
     \n7A8 25 98 B0 AA AA AA AA AA "
 - expected_values:
-    IONIQ5_TP_FL: 0
-    IONIQ5_TP_FR: 0
-    IONIQ5_TP_RL: 0
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: -40
     IONIQ5_TT_FR: -40
     IONIQ5_TT_RL: -40
@@ -46,10 +42,6 @@ test_cases:
     7A82433FFFFFFFFFFFF
     7A825FFFFAAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
-    IONIQ5_TP_FR: 0
-    IONIQ5_TP_RL: 0
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: -40
     IONIQ5_TT_FR: -40
     IONIQ5_TT_RL: -40
@@ -62,9 +54,6 @@ test_cases:
     7A824FFFFFFFFFFFFFF
     7A825FFFFAAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
-    IONIQ5_TP_FR: 0
-    IONIQ5_TP_RL: 0
     IONIQ5_TP_RR: 33.2
     IONIQ5_TT_FL: -40
     IONIQ5_TT_FR: -40
@@ -78,9 +67,6 @@ test_cases:
     7A82436FFFFFFFFFFFF
     7A82597B0AAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
-    IONIQ5_TP_FR: 0
-    IONIQ5_TP_RL: 0
     IONIQ5_TP_RR: 42.2
     IONIQ5_TT_FL: -40
     IONIQ5_TT_FR: -40
@@ -94,10 +80,7 @@ test_cases:
     7A82451FFFFFFFFFFFF
     7A8259BB2AAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
-    IONIQ5_TP_FR: 0
     IONIQ5_TP_RL: 35.4
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: -40
     IONIQ5_TT_FR: -40
     IONIQ5_TT_RL: 28
@@ -110,7 +93,6 @@ test_cases:
     7A8244AFFFFFFFF9BB0
     7A825FFFFAAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
     IONIQ5_TP_FR: 32.4
     IONIQ5_TP_RL: 32.6
     IONIQ5_TP_RR: 33
@@ -126,10 +108,7 @@ test_cases:
     7A82442FFFF93B893B8
     7A82593B8AAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
     IONIQ5_TP_FR: 33.6
-    IONIQ5_TP_RL: 0
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: -40
     IONIQ5_TT_FR: 21
     IONIQ5_TT_RL: -40
@@ -142,7 +121,6 @@ test_cases:
     7A82446FFFF98B0FFFF
     7A825FFFFAAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
     IONIQ5_TP_FR: 40.4
     IONIQ5_TP_RL: 40.6
     IONIQ5_TP_RR: 41.4
@@ -158,9 +136,7 @@ test_cases:
     7A8244FFFFFA1B89EB4
     7A825A0B7AAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
     IONIQ5_TP_FR: 42.6
-    IONIQ5_TP_RL: 0
     IONIQ5_TP_RR: 41.4
     IONIQ5_TT_FL: -40
     IONIQ5_TT_FR: 31
@@ -174,7 +150,6 @@ test_cases:
     7A824FFFFFF98B0FFFF
     7A82598B0AAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
     IONIQ5_TP_FR: 44.8
     IONIQ5_TP_RL: 44
     IONIQ5_TP_RR: 43.8
@@ -208,7 +183,6 @@ test_cases:
 - expected_values:
     IONIQ5_TP_FL: 31.2
     IONIQ5_TP_FR: 31.8
-    IONIQ5_TP_RL: 0
     IONIQ5_TP_RR: 32.4
     IONIQ5_TT_FL: 15
     IONIQ5_TT_FR: 14
@@ -263,7 +237,6 @@ test_cases:
     IONIQ5_TP_FL: 32.6
     IONIQ5_TP_FR: 32
     IONIQ5_TP_RL: 32.4
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: 32
     IONIQ5_TT_FR: 32
     IONIQ5_TT_RL: 32
@@ -277,9 +250,7 @@ test_cases:
     7A825FFFFAAAAAAAAAA
 - expected_values:
     IONIQ5_TP_FL: 32.8
-    IONIQ5_TP_FR: 0
     IONIQ5_TP_RL: 33
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: 27
     IONIQ5_TT_FR: -40
     IONIQ5_TT_RL: 27

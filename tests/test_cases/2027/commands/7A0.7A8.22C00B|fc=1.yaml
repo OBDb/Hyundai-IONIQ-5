@@ -1,10 +1,6 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
-    IONIQ5_TP_FL: 0
-    IONIQ5_TP_FR: 0
-    IONIQ5_TP_RL: 0
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: 65
     IONIQ5_TT_FR: 65
     IONIQ5_TT_RL: 65

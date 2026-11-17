@@ -185,10 +185,6 @@ test_cases:
     01 00 00 C2 5B 01 \n7A8 23 00 00 C1 5D 01 00 00 \n7A8 24 54 93 B8 93 B8 93 B8
     \n7A8 25 93 B8 AA AA AA AA AA "
 - expected_values:
-    IONIQ5_TP_FL: 0
-    IONIQ5_TP_FR: 0
-    IONIQ5_TP_RL: 0
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: 65
     IONIQ5_TT_FR: 65
     IONIQ5_TT_RL: 65
@@ -377,10 +373,6 @@ test_cases:
     7A8244C8DB08DB08DB0
     7A8258DB0AAAAAAAAAA
 - expected_values:
-    IONIQ5_TP_FL: 0
-    IONIQ5_TP_FR: 0
-    IONIQ5_TP_RL: 0
-    IONIQ5_TP_RR: 0
     IONIQ5_TT_FL: -40
     IONIQ5_TT_FR: -40
     IONIQ5_TT_RL: -40
