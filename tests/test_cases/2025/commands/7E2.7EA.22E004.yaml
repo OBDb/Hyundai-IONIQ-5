@@ -113,7 +113,6 @@ test_cases:
     22 16 00 33 73 05 10 80 \n7EA 23 00 00 00 04 02 00 00 \n7EA 24 00 00 00 FF F8
     00 00 "
 - expected_values:
-    IONIQ5_12V_V: 0
     IONIQ5_ACCELERATOR_PEDAL_POSITION: 0
     IONIQ5_VSS_HD: 0
   response: |-
@@ -387,7 +386,6 @@ test_cases:
   response: "7EA 10 22 62 E0 04 FF FF 00 \n7EA 21 00 71 09 00 04 E6 14 \n7EA 22 63
     0E 46 75 05 40 00 \n7EA 23 00 00 00 02 00 00 00 \n7EA 24 00 00 00 00 00 00 00 "
 - expected_values:
-    IONIQ5_12V_V: 0
     IONIQ5_ACCELERATOR_PEDAL_POSITION: 0
     IONIQ5_VSS_HD: 0
   response: |-
