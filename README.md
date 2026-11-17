@@ -6,65 +6,9 @@ This repository contains signal set configurations for the Hyundai IONIQ 5, orga
 
 - [Hyundai Kona Electric](https://github.com/OBDb/Hyundai-Kona-Electric): Shares the same ODO parameters.
 - [Kia EV9](https://github.com/OBDb/Kia-EV9): Shares the same ODO parameters.
-
-## Generations
-
-The IONIQ 5 represents Hyundai's first dedicated electric vehicle built on the E-GMP (Electric Global Modular Platform) architecture, launched globally in 2021:
-
-- **First Generation (2021-present)**:
-  - **Platform**: E-GMP (Electric-Global Modular Platform)
-    - 800V architecture enabling ultra-fast charging
-    - Vehicle-to-Load (V2L) capability up to 3.6kW
-    - Dedicated EV platform with flat floor design
-    
-  - **Powertrain Configurations**:
-    - **Standard Range RWD**:
-      - 58 kWh battery
-      - Single motor: 168 hp (125 kW)
-      - Range: ~220 miles (EPA)
-    
-    - **Long Range RWD**:
-      - 77.4 kWh battery
-      - Single motor: 225 hp (168 kW)
-      - Range: ~303 miles (EPA)
-    
-    - **Long Range AWD**:
-      - 77.4 kWh battery
-      - Dual motors: 320 hp (239 kW) combined
-      - Front motor: 95 hp (71 kW)
-      - Rear motor: 225 hp (168 kW)
-      - Range: ~256 miles (EPA)
-
-  - **Charging Capabilities**:
-    - 350 kW DC fast charging (10-80% in ~18 minutes)
-    - 10.9 kW onboard charger for AC charging
-    - Supports 400V and 800V charging infrastructure
-    
-  - **Key Features**:
-    - 12.3-inch digital cluster
-    - 12.3-inch infotainment display
-    - Augmented Reality Head-Up Display
-    - Highway Driving Assist 2 (HDA 2)
-    - Remote Smart Parking Assist
-    - Vehicle-to-Load (V2L) functionality
-    - Over-the-air (OTA) update capability
-
-  - **Model Year Updates**:
-    - **2022**: Initial launch year
-      - Introduction of all core variants
-      - Limited first edition models
-    
-    - **2023**:
-      - Battery preconditioning feature added
-      - Digital side mirrors in select markets
-      - Enhanced charging curve optimization
-      - Additional paint options
-    
-    - **2024**:
-      - Updated battery chemistry
-      - Enhanced range across variants
-      - Digital Key 2 implementation
-      - Additional driver assistance features
+- [Hyundai Ioniq 6](https://github.com/OBDb/Hyundai-IONIQ-6): Shares the E-GMP platform.
+- [Kia EV6](https://github.com/OBDb/Kia-EV6): Shares the E-GMP platform.
+- [Genesis GV60](https://github.com/OBDb/Genesis-GV60): Shares the E-GMP platform.
 
 ## Related resources
 

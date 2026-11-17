@@ -1,0 +1,8 @@
+command_id: 7A0.7A8.22B00C|fc=1
+test_cases:
+- expected_values:
+    IONIQ5_HEATED_WHEEL: 0
+    IONIQ5_HEATED_WHEEL_ALT: 0
+  response: |-
+    7A8100B62B00C200000
+    7A8210000000000AAAA

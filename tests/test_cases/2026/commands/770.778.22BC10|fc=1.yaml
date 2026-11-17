@@ -1,0 +1,7 @@
+command_id: 770.778.22BC10|fc=1
+test_cases:
+- expected_values:
+    IONIQ5_LIGHTS_CODE: 0
+  response: |-
+    778100962BC10FFE000
+    77821000006AAAAAAAA
