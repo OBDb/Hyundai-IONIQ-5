@@ -167,11 +167,6 @@ test_cases:
     36 00 00 00 00 00 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
     IONIQ5_ODO_KM: 0
-    IONIQ5_ODO_MI: 12606
-  response: "7CE 10 18 62 B0 02 D0 00 00 \n7CE 21 00 FF AD 00 00 00 00 \n7CE 22 31
-    3E 00 00 00 00 00 \n7CE 23 00 00 00 00 AA AA AA "
-- expected_values:
-    IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 15122
   response: "7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 97 00 00 00 00 \n7CE 22 3B
     12 00 00 9A 00 34 \n7CE 23 00 00 00 00 AA AA AA "
@@ -180,6 +175,11 @@ test_cases:
     IONIQ5_ODO_MI: 15122
   response: "7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 98 00 00 00 00 \n7CE 22 3B
     12 00 00 9B 00 34 \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
+    IONIQ5_ODO_KM: 0
+    IONIQ5_ODO_MI: 10915
+  response: "7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF B6 00 00 00 00 \n7CE 22 2A
+    A3 00 00 B7 00 00 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
     IONIQ5_ODO_KM: 0
     IONIQ5_ODO_MI: 15117
